@@ -1,10 +1,13 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const dotenv = require('dotenv');
+dotenv.config({path:"./config.env"});
 // const validator = require("validator");
-mongoose.connect('mongodb://localhost:27017/StudentsProfile' , 
-{useNewUrlParser: true, 
+const DB = process.env.DATABASE;
+mongoose.connect(DB ,   
+{useNewUrlParser: true,  
 useUnifiedTopology: true
 }).then(()=> 
 console.log("connected successfully"))
-.catch (() =>
- console.log("Connection Failed"));
+.catch ((err) =>
+ console.log(err));
