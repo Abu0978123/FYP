@@ -22,7 +22,7 @@ app.use(express.static(Static_Path));
 app.set("view engine", "hbs");
 app.set("views", views_Path);
 hbs.registerPartials(partials_Path);
-  
+
 app.get("/" , (req,res) =>{
     res.render("index") 
 }); 
