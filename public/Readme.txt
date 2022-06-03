@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+Thanks for Watching my Site!
 
-Template Name: Day
-Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Site Name: Online Learning
+Template URL: http://localhost:3500/
+Author: Abu Bakar, Maaz Bin Saduqie & Moheed Zubair 
