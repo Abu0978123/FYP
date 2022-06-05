@@ -110,6 +110,16 @@ app.post("/applyCourse" , async(req,res) =>{
     } 
 
 }); 
+app.get("*" , (req,res) =>{
+    try{  
+    res.render("404") 
+    } 
+    catch(e)   
+    {
+        res.status(404).send("<h1> you entered wrong data</h1>");
+    } 
+
+}); 
 app.listen(port , ()=>{
     console.log(`the port is running on ${port}`);
 });
