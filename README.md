@@ -1,4 +1,4 @@
-# FYP
+Final  Year Project in Bachelor of Information Technology
 Project name "Online Learning"
 This is my university final year project.
 In this project I have used the following tools and technologies.
